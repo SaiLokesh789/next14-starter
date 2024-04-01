@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.subTitle {
+  color: var(--secondary);
+}
+
+.title {
+  color: var(--primary);
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box h3 {
+  color: var(--secondary);
+}
+
+.imageContainer {
+  flex: 1;
+  position: relative;
+  width: fit-content;
+  height: 500px;
+}
+
+.img {
+  object-fit: contain;
+}
+
+@media (max-width:768px) {
+  .imageContainer {
+    display: none;
+  }
+}

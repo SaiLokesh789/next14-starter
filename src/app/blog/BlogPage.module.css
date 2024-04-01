@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.post {
+  width: 30%;
+}
+
+@media (max-width:992px) {
+  .post {
+    width: 45%;
+  }
+}
+
+@media (max-width:768px) {
+  .post {
+    width: 100%;
+  }
+}
