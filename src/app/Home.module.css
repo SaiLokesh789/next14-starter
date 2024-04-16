@@ -25,18 +25,19 @@
 
 .button {
   padding: 20px;
+  text-align: center;
   min-width: 120px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
   font-weight: bold;
   font-size: 20px;
+  color: white;
   background-color: var(--secondary);
 }
 
 .button:first-child {
   background-color: var(--accent);
-  color: white;
 }
 
 .imageContainer {

@@ -1,0 +1,27 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.formContainer input {
+  padding: 20px;
+  background-color: #ece0fd;
+  color: var(--text);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.formContainer button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: var(--secondary);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: var(--background);
+}

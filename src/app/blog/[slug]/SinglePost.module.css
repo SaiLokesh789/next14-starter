@@ -10,7 +10,7 @@
 }
 
 .img {
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .textContainer {
@@ -42,11 +42,6 @@
 
 .detailValue {
   font-weight: 500;
-}
-
-.avatar {
-  object-fit: cover;
-  border-radius: 50%;
 }
 
 .content {
