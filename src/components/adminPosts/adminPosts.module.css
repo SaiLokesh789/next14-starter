@@ -1,0 +1,16 @@
+.post{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail{
+  display: flex;
+  align-items: center;
+}
+
+.del{
+  padding: 5px;
+  font-size: large;
+  font-weight:700;
+}

@@ -6,9 +6,10 @@ const PostCard = async ({ post }) => {
 
   return (
     <div className={style.container}>
-      <div className={style.top}><div className={style.imageContainer}>
-        <Image src={post.img ? post.img : "/EmptyPostImg.jpeg"} alt='' fill className={style.img} />
-      </div>
+      <div className={style.top}>
+        <div className={style.imageContainer}>
+          <Image src={post.img ? post.img : "/EmptyPostImg.jpeg"} alt='' fill className={style.img} />
+        </div>
         <span className={style.date}>01.10.2004</span>
       </div>
       <div className={style.bottom}>

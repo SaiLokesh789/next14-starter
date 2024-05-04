@@ -62,6 +62,9 @@ const Links = ({ session }) => {
           {links.map(link => (
             <NavLink item={link} key={link.title} />
           ))}
+          <form action={handleLogout}>
+            < button className={style.logout}> Logout</button>
+          </form>
         </div>
       }
     </div>
