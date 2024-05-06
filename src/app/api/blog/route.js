@@ -12,5 +12,4 @@ export const GET = async (req, res) => {
     console.log(err);
     return NextResponse(err);
   }
-
 }
